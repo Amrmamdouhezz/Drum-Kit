@@ -7,7 +7,7 @@ h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 20px #DA0463;
 
 }
 
@@ -17,31 +17,38 @@ footer {
 }
 
 .w {
-
+cursor:pointer;
+background-image: url("images/crash.png");
 }
 
 .a {
-
+cursor: pointer;
+background-image: url("images/kick.png");
 }
 
 .s {
-
+cursor: pointer;
+background-image: url("images/snare.png");
 }
 
 .d {
-
+cursor: pointer;
+background-image: url("images/tom1.png");
 }
 
 .j {
-
+cursor: pointer;
+background-image: url("images/tom2.png");
 }
 
 .k {
-
+cursor: pointer;
+background-image: url("images/tom3.png");
 }
 
 .l {
-
+cursor: pointer;
+background-image: url("images/tom4.png");
 }
 
 .set {
@@ -54,7 +61,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 4px 3px 4px 5px #DBEDF3;
   opacity: 0.5;
 }
 
@@ -70,8 +77,8 @@ footer {
   line-height: 2;
   font-weight: 900;
   color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  text-shadow: 3px 0 10px #DBEDF3;
+  border-radius: 30px;
   display: inline-block;
   width: 150px;
   height: 150px;
